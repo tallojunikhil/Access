@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<title>Access App</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+
+	<!-- css -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./css/index.css" />
+
+	<!-- library -->
+	<script src="./js/libs/jquery-2.1.4.min.js"></script>
+	<script src="./js/libs/bootstrap.min.js"></script>
+	<script src="./js/libs/pace.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container-fluid main-wrap">
+		<nav class="navbar navbar-default">
+			<!-- Brand and toggle get grouped for better mobile display -->	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-de" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="./images/template-logo.png" class="img-responsive">
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->	
+			<div class="collapse navbar-collapse" id="nav-de">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="index.html">
+							Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li>
+						<a href="program.html">Programs</a>
+					</li>
+					<li>
+						<a href="gallery.html">Photo Gallery</a>
+					</li>
+					<li>
+						<a href="sponsor.html">Sponsors</a>
+					</li>
+					<li>
+						<a href="event.html">Calendar/Events</a>
+					</li>
+					<li>
+						<a href="donate.html">Donate</a>
+					</li> 
+					
+					<li>
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	
+					
+						<div class="text-right" style="margin-top:10px;">
+						<button class="btn btn-info btn-xs" ONCLICK="window.location.href='form.html'">subscribe</button>
+						
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->	
+		</nav>
+
+		<div class="clearfix nav-gap"></div>
+
+
+		<div class="col-md-offset-1 col-md-10">
+
+		<div id="app-slides" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->		
+			<ol class="carousel-indicators">
+				<li data-target="#app-slides" data-slide-to="0" class="active"></li>
+				<li data-target="#app-slides" data-slide-to="1"></li>
+				<li data-target="#app-slides" data-slide-to="2"></li>
+				<li data-target="#app-slides" data-slide-to="3"></li>
+				<li data-target="#app-slides" data-slide-to="4"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->		
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="./images/slide5.jpg ">		
+					<div class="carousel-caption"> </div>
+				</div>
+				<div class="item">
+					<img src="./images/slide2.jpg">		
+					<div class="carousel-caption"> </div>
+				</div>
+				<div class="item">
+					<img src="./images/slide3.jpg">		
+					<div class="carousel-caption"> </div>
+				</div>
+				<div class="item">
+					<img src="./images/slide4.jpg">		
+					<div class="carousel-caption"> </div>
+				</div>
+				<div class="item">
+					<img src="./images/slide1.jpg">		
+					<div class="carousel-caption"> </div>
+				</div>
+			</div>
+
+			<!-- Controls -->		
+			<a class="left carousel-control" href="#app-slides" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left app-slide-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#app-slides" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right app-slide-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		</div>
+
+		<div class="row">
+			<div class="row clearfix r3">
+				<div class="col-md-8">
+					<div class="m-r-3 clearfix">
+						<div class="m-r-3-h5" data-sr="enter left, hustle 200px">
+							<h2 class="text-center"><i class="fa fa-home"></i></h2>
+							<h3 class="text-center">About Us</h3>
+							<div class="text-center"><span class="break"></span></div>
+						</div>
+					</div>
+
+					<div class="m-r-3-abs" data-sr="wait 0.2s, scale up 20%">
+						<div class="well">
+							The purpose of ACCESS (Achieving College and Career Enrichment Skills for Success) is to provide educational and supportive services to middle and high school students in order to prepare them for college and to pursue a degree in Science, Technology, Engineering, or Mathematics. We are a 501 c 3 nonprofit and our students are minority, often low income, or will be a first generation college student. Our objective is to give students and parents support, provided resources, opportunities, programs and activities related to STEM careers that will motivate and encourage our students to pursue a STEM related degree program.
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="m-r-3 clearfix">
+						<div class="m-r-3-h5" data-sr="enter right, hustle 200px">
+							<h2 class="text-center"><i class="fa fa-magic"></i></h2>
+							<h3 class="text-center">Our Life</h3>
+							<div class="text-center"><span class="break"></span></div>
+						</div>
+					</div>
+
+					<div class="col-md-offset-1 col-md-10">
+						<div class="embed-responsive embed-responsive-16by9 text-center">
+							<iframe width="420" height="315" src="https://www.youtube.com/embed/YWU4W72Xogc" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="row">
+				<div class="m-r-4 clearfix">
+					<div class="m-r-4-h5" data-sr="enter top, hustle 100px">
+						<h2 class="text-center"><i class="fa fa-briefcase"></i></h2>
+						<h3 class="text-center">Our Programs</h3>
+						<div class="text-center"><span class="break"></span></div>
+					</div>
+
+					<div class="m-r-4-content clearfix">
+						<div class="row">
+							<div class="col-md-6" data-sr="move 16px scale up 20%, over 2s">		
+								<div class="media">
+								  	<div class="media-left">
+								  		<a href="https://google.com" target="_blank">
+								  			<img class="media-object" src="./images/NSBE.jpg">
+								  		</a>
+								  	</div>
+								  	<div class="media-body">
+								  		<h4 class="media-heading">National Society of Black Engineers NSBE Jr. Chapter</h4>
+								  		<p>
+								  		NSBE Jr. Chapters are designed to stimulate the interest in science, technology, engineering, and mathematics fields, or STEM.  The goal is to encourage students to attend college and pursue technical degrees.
+We meet on a weekly basis and provide activities to help students discover the excitement of academic excellence, leadership, technical development and teamwork.  
+										</p>
+								  	</div>
+								</div>	
+							</div>
+							
+							<div class="col-md-6" data-sr="move 16px scale up 20%, over 2s">		
+								<div class="media">
+								  	<div class="media-left">
+								  		<a href="https://google.com" target="_blank">
+								  			<img class="media-object" src="./images/saturday.jpg">
+								  		</a>
+								  	</div>
+								  	<div class="media-body">
+								  		<h4 class="media-heading">Saturday STEAM Club</h4>
+								  		<p>The Science, Technology, Engineering,  Art and Mathematics club is a program aimed at both boys and girls in grades K through 8th and is designed to provide a jumpstart on STEM early career awareness through many fun and hands on project based activities and competitions. The program meets one Saturday per month and runs from September to June.</p>
+								  	</div>
+								</div>	
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6" data-sr="move 16px scale up 20%, over 2s">		
+								<div class="media">
+								  	<div class="media-left">
+								  		<a href="https://google.com" target="_blank">
+								  			<img class="media-object" src="./images/summersteam.jpg">
+								  		</a>
+								  	</div>
+								  	<div class="media-body">
+								  		<h4 class="media-heading">Summer STEAM Enrichment</h4>
+								  		<p>
+								  			This summer two-week enrichment program will assist with summer learning loss through fun, engaging and hands activities that include will include Fun Math and Vocabulary Games, Robotics, Nanotechnology, 3D Printing, and some Amazing Art & Engineering Projects and is open to all students entering 4th-8th grades.  Program will run Monday, August 8th to Friday, August 19th, 2016  from 9am to 4pm.
+								  		</p>
+								  	</div>
+								</div>	
+							</div>
+
+							<div class="col-md-6" data-sr="move 20px scale up 40%, over 1s">		
+								<div class="media">
+								  	<div class="media-left">
+								  		<a href="https://google.com" target="_blank">
+								  			<img class="media-object" src="./images/shelooks.png">
+								  		</a>
+								  	</div>
+								  	<div class="media-body">
+								  		<h4 class="media-heading">"She Looks Just Like Me"- All Girl's STEM Event</h4>
+								  		<p>
+								  			The free one-day  community event is for minority girls between the ages of 11 to 17, who reside in Bridgeport and the surrounding cities, to come together to explore, enhance their knowledge and increase their interest in careers in Science, Technology, Engineering, and Mathematics as well as learn how to foster positive self-images and be successful in school.  Save the Date for our 3rd Annual SLJLM, Saturday, November, 5, 2016. 
+								  		</p>
+								  	</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="m-r-1 clearfix">
+				<div class="col-md-12 break-div" data-sr="enter left, hustle 200px"> 
+					<h2 class="text-center"><i class="fa fa-bolt"></i></h2>
+					<h3 class="text-center">Upcoming Events</h3>
+					<div class="text-center"><span class="break"></span></div>
+				</div>
+
+				<div class="col-md-4 col-xs-12" data-sr="wait 0.2s, scale up 20%">
+					<div class="front">
+						<i class="fa fa-bell"></i>
+						<h5>
+							<a href="https://www.facebook.com/events/900887129960276" target="_blank">
+							She Looks Just Like Me!
+							</a>
+							</h5>
+						<p>
+							“She Looks Just Like Me!” Girls STEM and Empowerment
+                             Conference is designed to both enhance awareness surrounding Science, Technology Engineering and Math as well as cultivate confidence, professionalism, self-esteem and healthy interaction among girls. 
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12" data-sr="wait 0.2s, scale up 20%">
+					<div class="front">
+						<i class="fa fa-bell"></i>
+						<h5>
+							<a href="https://www.facebook.com/events/985114184842073" target="_blank">
+							The New Haven NSBE Jr. Chapter Program
+							</a>
+							</h5>
+						<p>
+						 This program is open to any 9th-12th grade student regardless of race or gender who is interested in being a member of The National Society of Black Engineers Pre-College Initiative (PCI) program which is designed to stimulate the interest in science, technology, engineering. 
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12" data-sr="wait 0.2s, scale up 20%">
+					<div class="front">
+						<i class="fa fa-bell"></i>
+						<h5>
+							<a href="https://www.facebook.com/events/893711410703754" target="_blank">
+							Saturday STEAM Club 2015-2016 for K-8 grades
+							</a> </h5>
+						<p>
+							The Science, Technology, Engineering, Art and Mathematics club is a program aimed at both boys and girls in grades K through 8th and is designed to provide a jumpstart on STEM early career awareness through many fun and hands on project based activities and competitions.
+
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12" data-sr="wait 0.2s, scale up 20%">
+					<div class="front">
+						<i class="fa fa-bell"></i>
+						<h5>
+							<a href="https://www.facebook.com/events/516012361889251" target="_blank"> 
+							The Bridgeport NSBE Jr. Chapter Program
+							</a></h5>
+						<p>
+							This program is open to any 9th-12th grade student regardless of race or gender who is interested in being a member of The National Society of Black Engineers Pre-College Initiative (PCI) program which is designed to stimulate the interest in science, technology, engineering, and mathematics fields. 
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12" data-sr="wait 0.2s, scale up 20%">
+					<div class="front">
+						<i class="fa fa-bell"></i>
+						<h5>
+							<a href="https://www.facebook.com/events/1525401337721981" target="_blank"> 
+							An Evening for the Stars Fundraiser
+							</a></h5>
+						<p>
+							This year’s theme is “Continuing to Build the STEM Pipeline” and our keynote speaker is Mr. Corey Baker.Mr. Baker is the National Treasurer Emeritus of the National Society of Black Engineers and Ph.D. Candidate in Electrical & Computer Engineering at the University of Florida.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12" data-sr="wait 0.2s, scale up 20%">
+					<div class="front">
+						<i class="fa fa-bell"></i>
+						<h5>
+							<a href="https://www.facebook.com/events/371207606416004" target="_blank"> 
+							Capital Preparatory Harbor School Informational Session
+							</a></h5>
+						<p>
+							New school will be open to Bridgeport residents and will open July 2015. Come out and learn what the school will offer as well you can apply the same day! Will be held at the University of Bridgeport, Engineering and Technology Building Room 116.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="m-r-2 clearfix">
+				<div class="m-r-2-h5" data-sr="enter top, hustle 100px">
+					<h2 class="text-center"><i class="fa fa-users"></i></h2>
+					<h3 class="text-center">Our Parters</h3>
+					<div class="text-center"><span class="break"></span></div>
+				</div>
+
+				<div class="m-r-2-content clearfix">
+					<div class="row">
+						<div class="col-md-4" data-sr="move 16px scale up 20%, over 2s">		
+							<div class="media">
+							  	<div class="media-left">
+							  		<a href="http://www.fairfield.edu" target="_blank">
+							  			<img class="media-object" src="./images/Fairfield.jpg">
+							  		</a>
+							  	</div>
+							  	<div class="media-body">
+							  		<h4 class="media-heading">Fairfield University - School of Engineering</h4>
+							  		<p>
+							  			The Fairfield University School of Engineering is a graduate and undergraduate engineering school and one of the professional schools of Fairfield University located in Fairfield, Connecticut.
+							  		</p>
+							  	</div>
+							</div>	
+						</div>
+
+						<div class="col-md-4" data-sr="move 16px scale up 20%, over 2s">		
+							<div class="media">
+							  	<div class="media-left">
+							  		<a href="http://www.bridgeport.edu" target="_blank">
+							  			<img class="media-object" src="./images/ub.jpg">
+							  		</a>
+							  	</div>
+							  	<div class="media-body">
+							  		<h4 class="media-heading">The University of Bridgeport -  School of Engineering</h4>
+							  		<p>
+							  			The School of Engineering of the University of Bridgeport provides comprehensive education and research opportunities to a diverse community in engineering, sciences, and the application and management of technology. 
+							  		</p>
+							  	</div>
+							</div>	
+						</div>
+						
+						<div class="col-md-4" data-sr="move 16px scale up 20%, over 2s">		
+							<div class="media">
+							  	<div class="media-left">
+							  		<a href="http://www.bridgeport.edu" target="_blank">
+							  			<img class="media-object" src="./images/ub.jpg">
+							  		</a>
+							  	</div>
+							  	<div class="media-body">
+							  		<h4 class="media-heading">The University of Bridgeport- Alumni Association</h4>
+							  		<p>
+							  			The University of Bridgeport, commonly referred to as UB, is a private, independent, non-sectarian, coeducational National university located on the Long Island Sound in the South End neighborhood of Bridgeport, 
+							  		</p>
+							  	</div>
+							</div>	
+						</div>
+					</div>
+
+					<div class="row">
+
+						<div class="col-md-4" data-sr="move 16px scale up 20%, over 2s">		
+							<div class="media">
+							  	<div class="media-left">
+							  		<a href="http://www.southernctowls.com" target="_blank">
+							  			<img class="media-object" src="./images/scsu.jpg">
+							  		</a>
+							  	</div>
+							  	<div class="media-body">
+							  		<h4 class="media-heading">Southern Connecticut State University - Center for Excellence in Science and Math</h4>
+							  		<p>
+							  			The mission of the Center for Excellence in Mathematics and the Sciences is to foster outstanding teaching and research in the various fields of math and science through the enhancement of existing campus.
+							  		</p>
+							  	</div>
+							</div>	
+						</div>
+						
+						<div class="col-md-4" data-sr="move 16px scale up 20%, over 2s">		
+							<div class="media">
+							  	<div class="media-left">
+							  		<a href="http://www.aka1908.com" target="_blank">
+							  			<img class="media-object" src="./images/akalogo.jpg">
+							  		</a>
+							  	</div>
+							  	<div class="media-body">
+							  		<h4 class="media-heading">Alpha Kappa Alpha Sorority, Inc. - Theta Tau Omega Chapter</h4>
+							  		<p>
+							  			heta Tau Omega Chapter of Alpha Kappa Alpha Sorority, Inc. was chartered on November 23,1968, in Fairfield County, by 16 visionary women who wanted to provide service to all mankind.  
+							  		</p>
+							  	</div>
+							</div>	
+						</div>
+						
+						<div class="col-md-4" data-sr="move 16px scale up 20%, over 2s">		
+							<div class="media">
+							  	<div class="media-left">
+							  		<a href="http://www.deltasigmatheta.org" target="_blank">
+							  			<img class="media-object" src="./images/delta.jpg">
+							  		</a>
+							  	</div>
+							  	<div class="media-body">
+							  		<h4 class="media-heading">Delta Sigma Theta Sorority, Inc. - Fairfield County Alumnae Chapter</h4>
+							  		<p>
+							  			
+Delta Sigma Theta Sorority, Incorporated is an organization of college educated women committed to constructive development of its members and to public service with a primary focus on the Black community..Serving the communities of Bridgeport, Norwalk, Stamford and Danbury.
+							  		</p>
+							  	</div>
+							</div>	
+						</div>
+					</div>
+
+					<div class="row">
+
+						<div class="col-md-4" data-sr="move 16px scale up 20%, over 2s">		
+							<div class="media">
+							  	<div class="media-left">
+							  		<a href="https://www.facebook.com/MilfordCTLinks" target="_blank">
+							  			<img class="media-object" src="./images/milford.jpg">
+							  		</a>
+							  	</div>
+							  	<div class="media-body">
+							  		<h4 class="media-heading">The Milford Connecticut Chapter of the Links, Incorporated</h4>
+							  		<p>
+							  			The Links, Incorporated is an organization of accomplished, dedicated women who are active in your community.
+							  		</p>
+							  	</div>
+							</div>	
+						</div>
+						
+						<div class="col-md-4" data-sr="move 16px scale up 20%, over 2s">		
+							<div class="media">
+							  	<div class="media-left">
+							  		<a href="http://www.soroptimistner.org/clubs_greaterbridgeport.htm" target="_blank">
+							  			<img class="media-object" src="./images/sorop.png">
+							  		</a>
+							  	</div>
+							  	<div class="media-body">
+							  		<h4 class="media-heading">
+							  			Soroptimist International of Greater Bridgeport 
+							  		</h4>
+							  		<p>
+							  			The Northeastern Region currently consists of ten clubs with approximately 250 members. We are working hard to charter additional clubs. As stated on our home page, the Northeastern Region covers the states of Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont. 
+							  		</p>
+							  	</div>
+							</div>	
+						</div>
+						
+						<div class="col-md-4" data-sr="move 16px scale up 20%, over 2s">		
+							<div class="media">
+							  	<div class="media-left">
+							  		<a href="https://connecticut.teachforamerica.org/" target="_blank">
+							  			<img class="media-object" src="./images/teach.jpg">
+							  		</a>
+							  	</div>
+							  	<div class="media-body">
+							  		<h4 class="media-heading">
+							  			Teach For America, Connecticut
+							  		</h4>
+							  		<p>
+							  			Teach For America is part of a national teacher corps focused on raising student achievement in public schools
+							  		</p>
+							  	</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="clearfix">
+		<div class="col-md-4 col-xs-12 text-center">
+			<small>&copy; registered 501(c) 3 by Access</small>
+		</div>
+
+		<div class="col-md-4 col-xs-12 text-center footer-mid">
+			<small>Office Location: 285 Fairfield Ave, Bridgeport, CT</small>
+			<small>Phone: 475.422.9212</small>
+			<small>Email: <a href="mailto:access4kidz@gmail.com">access4kidz@gmail.com</a></small>
+		</div>
+		
+		<div class="col-md-4 col-xs-12 text-center footer-social">
+			<a href="http://www.facebook.com/access4kidz" target="_blank">
+				<i class="fa fa-facebook"></i>
+			</a>
+			<a href="http://twitter.com/" target="_blank">
+				<i class="fa fa-twitter"></i>
+			</a>
+			<a href="http://instagram.com/" target="_blank">
+				<i class="fa fa-instagram"></i>
+			</a>
+			<a href="https://plus.google.com/" target="_blank">
+				<i class="fa fa-google-plus"></i>
+			</a>
+
+			<div class="text-right" style="margin-top:10px;">
+				<button class="btn btn-info btn-xs" ONCLICK="window.location.href='form.html'">subscribe</button>
+			</div>
+		</div>
+	</footer>
+
+	<script src='./js/libs/scrollReveal.min.js'></script>
+   	<script>
+    	window.sr = new scrollReveal();
+   	</script>
+</body>
+</html>
